@@ -73,7 +73,9 @@
     padding: 10px;
   }
   dialog button {
-    border-radius: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
     border-style: unset;
     background-color: white;
     color: rgb(87, 86, 86);
@@ -85,6 +87,7 @@
     position: fixed;
     top: 20px;
     right: 18px;
+    padding: 0px;
   }
   dialog h1 {
     font-size: 1.8rem;
