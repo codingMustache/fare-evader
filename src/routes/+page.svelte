@@ -11,6 +11,11 @@
 <div id="main">
   <h1>Fare Evader</h1>
   <button on:click={showPopup}>Ticket</button>
+  <div style="display:flex; align-items:center; flex-direction:column">
+    <p>Press</p>
+    <img src="share.webp" alt="share" height="30px" width="30px" />
+    <p>Then Add to Home Screen</p>
+  </div>
 </div>
 <dialog open={popup}>
   <div>
