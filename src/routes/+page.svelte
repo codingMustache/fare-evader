@@ -20,8 +20,9 @@
 		width: 50%;
 		height: 100%;
 		display: flex;
+		align-items: center;
 		flex-direction: column;
-		margin: auto;
+		margin: 0 auto;
 		padding: 50% 0;
 	}
 
@@ -34,13 +35,15 @@
 	}
 
 	button {
-		background-color: rgb(104, 104, 254);
-		color: white;
-		height: 50px;
-		margin: 20px;
-		border-radius: 50px;
+		border-radius: 20px;
 		border-style: none;
-		box-shadow: 0 0 10px black;
+		background-color: rgb(104, 104, 254);
+		height: 80px;
+		color: white;
+		width: 100%;
+		box-shadow: 0 0 30px rgb(79, 79, 233);
+		margin: 20px;
+		border-radius: 20px;
 		font-size: larger;
 	}
 </style>

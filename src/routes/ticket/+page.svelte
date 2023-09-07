@@ -9,7 +9,7 @@
 </script>
 
 <div id="main">
-	<h1>Fare Evader</h1>
+	<h1>Bug Tester</h1>
 	<button on:click={showPopup}>Ticket</button>
 	<div style="display:flex; align-items:center; flex-direction:column">
 		<p>Press</p>
@@ -179,7 +179,8 @@
 		font-family: Arial, Helvetica, sans-serif;
 		letter-spacing: 0.6px;
 		font-size: 1.1rem;
-		color: #8a8a90;
+		font-weight: 501;
+		color: #505051;
 	}
 
 	@keyframes outerShadow {
