@@ -7,6 +7,7 @@
 	const showPopup = () => {
 		popup ? (popup = false) : (popup = true)
 		today = new Date()
+		today.setHours(today.getHours() + 3)
 	}
 	onMount(() => setInterval(() => (time = new Date()), 1000))
 </script>
